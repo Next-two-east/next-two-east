@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2E Tabloid</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="Two East Tabloid.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="2ETabloid.css" rel="stylesheet">
+ 
+  </head>
+  <body>
+    <div class="overlay" style: " text-align:justify; word-break:break-all;"><h1 id = "overlayText">Welcome to the Two East Tabloid</h1></div>
+
+    <audio autoplay loop>
+      <source src="Somo - Ride.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!--------------NavvBar------------------------>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top">
+          
+            <div class="navbar-header">
+              <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="navbar-brand" href="#">2E Tabloid</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a data-toggle="modal" data-target="#aboutModal" href = "#">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------>
+
+    <!--------Carousel-------------->
+
+    <div id="myCarousel" class="carousel slide">
+      
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item"><img src ="2E imags/cheaters.jpg"/></div>
+        <div class="item"><img src ="2E imags/cumbackhome.jpg"/></div>
+        <div class="item"><img src ="2E imags/sleepboy.jpg"/></div>
+        <div class="item"><img src ="2E imags/Werewolves.jpg"/></div>
+        <div class="item"><img src ="2E imags/muscleman.jpg"/></div>
+        <div class="item"><img src ="2E imags/suspiciousjjz.jpg"/></div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <!------------------------>
+
+
+
+<!--Issuesssss------------>
+    <div id = "issueDiv">
+        <!-- Button trigger modal -->
+        <button type="button" class="Issues" data-toggle="modal" data-target="#myModal1">
+          Issue One
+        </button>
+
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Issue One</h4>
+              </div>
+              <div class="modal-body">
+                <object data="Tabloid1.pdf" type="application/pdf" width="100%" height="100%">
+ 
+                  <p>It appears you don't have a PDF plugin for this browser.
+                  No biggie... you can <a href="Tabloid1.pdf">click here to
+                  download the PDF file.</a></p>
+                  
+                </object>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="Issues" data-toggle="modal" data-target="#myModal2">
+          Issue Two
+        </button>
+
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Issue Two</h4>
+              </div>
+              <div class="modal-body">
+                <object data="twoeasttabloid2.pdf" type="application/pdf" width="100%" height="100%">
+ 
+                  <p>It appears you don't have a PDF plugin for this browser.
+                  No biggie... you can <a href="twoeasttabloid2.pdf">click here to
+                  download the PDF file.</a></p>
+                  
+                </object>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <button type="button" class="Issues" data-toggle="modal" data-target="#myModal3">
+          Issue Three
+        </button>
+
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Issue Three</h4>
+              </div>
+              <div class="modal-body">
+                <object data="twoeasttabloid3.pdf" type="application/pdf" width="100%" height="100%">
+ 
+                  <p>It appears you don't have a PDF plugin for this browser.
+                  No biggie... you can <a href="twoeasttabloid3.pdf">click here to
+                  download the PDF file.</a></p>
+                  
+                </object>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">About Us</h4>
+                </div>
+                  <div class="modal-body">
+                      Here at the Two East Tabloid, we treasure one thing above all else: reporting accuracy. Our stories are not only completely accurate, but they're also completely correct stories. Our staff includes such journalistic genius as Will "Wiru" Reyes, Tamba "Tambae/Tambino/Mr. Drilla/Mr. October" Monrose, and Justin "Sad Boy" Xiao. We are residents of Two East in Next House at MIT. We hope you enjoy our publications!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+  </body>
+</html>
