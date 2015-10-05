@@ -27,12 +27,12 @@
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
     animation-name: example;
     animation-duration: 4s;
-	  position:absolute;
-	  z-index:12;
-	  top:30%;
-	  left:0;
-	  width:100%;
-	  text-align:center;
+    position:absolute;
+    z-index:12;
+    top:30%;
+    left:0;
+    width:100%;
+    text-align:center;
 }
 
 
@@ -61,8 +61,8 @@ body {
   z-index:12;
   top:30%;
   left:0;
-  width:20%;
-  margin-left: 760px;
+  width:60%;
+  margin-left: 20%;
   text-align:center;
 }
 
@@ -105,17 +105,17 @@ body {
 }
 
 #issueDiv {
-	width: 20%;
- 	margin-left: 760px;
+  width: 20%;
+  margin-left: 760px;
   text-align:center;
   display: table;
 }
 
 .Issues {
-	font-size: 3em;
-	background: none;
-	border: none;
-	display: ;
+  font-size: 3em;
+  background: none;
+  border: none;
+  display: ;
 }
 
 
@@ -127,7 +127,7 @@ body {
     width: 80%;
 }
 .modal-body {
-	width: 100%;
-	height: 87%;
+  width: 100%;
+  height: 87%;
 }
 
